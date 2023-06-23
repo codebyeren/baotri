@@ -1,0 +1,32 @@
+body {
+    background-image: url('https://th.bing.com/th/id/R.fdd0b6e9dd6b37549094e2aadfbe345e?rik=ouSOWcFw61cCHw&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    animation: heartbeat 1.5s infinite;
+}
+
+h1 {
+    color: #ff3366;
+    margin-top: 150px;
+}
+
+p {
+    color: #b7f06d;
+    font-size: 18px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
